@@ -1,11 +1,12 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Card, CardHeader, CardMedia, CardContent, Typography, Button } from '@material-ui/core';
+import './cards.css';
 
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
-    margin: 10,
+    margin: "10px 10px 10px 45px",
     height: 560,
     background: '#fff',
     borderRadius: 8,
